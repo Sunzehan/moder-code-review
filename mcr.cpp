@@ -36,10 +36,12 @@ int main(){
 				cout << "Win!" << endl;
 				break; // need to terminate the problem
 			}
-		}
-	if (n==8) // all celles with i=0 to 2 have been inputted above but no winner yet
-	   cout << "Tie!" << endl;
+	       		else
+				if (n==8) // all celles with i=0 to 2 have been inputted above but no winner yet
+	   				cout << "Tie!" << endl;
 
+		}
+	
 	// show the game to console
 	cout << game[0][0] << " " << game[0][1] << " " << game[0][2] << endl;
 	cout << game[1][0] << " " << game[1][1] << " " << game[1][2] << endl;
